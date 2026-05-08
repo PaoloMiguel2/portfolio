@@ -1,7 +1,4 @@
 
-
-
-
 body{
     background-color: rgb(71, 69, 69);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,22 +22,7 @@ header{
     
 }
 
-@media (max-width: 1200px) {
-    header{
-        font-size: 15px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .nav{
-        width: 150px;
-    }
-    #home-text{
-        align-items: center;
-    }
-    #home-container{
-       gap: 20px;
-    }
-}
+
 
 a{
     text-decoration: none;
@@ -83,7 +65,7 @@ p{
     flex-wrap: wrap-reverse;
     top: 150px;
     display: flex;
-    gap: 200px;
+    gap: 50px;
     left: 50%;
     transform: translateX(-50%);
     text-shadow: 1px 2px 10px black;
@@ -118,6 +100,15 @@ p{
     transform: translateX(-50%);
     position: absolute;
 }
+
+#image-techStack{
+    width: 170px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
 #techStack-c p{
     position: absolute;
     left: 50%;
@@ -145,4 +136,49 @@ p{
     font-size: 25px;
     bottom: 30px;
     transform: translateX(-50%);
+}
+#certifications-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    gap: 120px;
+    
+    
+}
+
+
+#certifications-card{
+    border: 1px solid black;
+    height: 250px;
+    width: 400px;
+}
+
+
+
+@media (max-width: 1200px) {
+    header{
+        font-size: 15px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .nav{
+        width: 150px;
+    }
+    #home-text{
+        align-items: center;
+    }
+    #home-container{
+       gap: 20px;
+       
+    }
+    .picture-index{
+        width: 270px;
+        height: 300px;
+    }
+    #text-TechStack{
+        font-size: 40px;
+    }
 }
