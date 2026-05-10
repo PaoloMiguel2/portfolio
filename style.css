@@ -2,6 +2,7 @@
 body{
     background-color: rgb(75, 72, 72);
      font-family: 'Source Sans 3', sans-serif;
+}
 header{
     font-size: 20px;
   position: relative;
@@ -17,10 +18,12 @@ header{
   justify-content: space-between;
   background-color: rgb(17, 17, 18);
   border: solid black 2px;
-  border-radius: 25px;
+  border-radius: 4px;
     
 }
-
+#burger{
+    cursor: pointer;
+}
 a{
     text-decoration: none;
     position: relative;
@@ -228,6 +231,35 @@ transform: translateX(-50%);
     height: 100%;
 }
 
+@media (max-width: 642px) {
+
+    header{
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .nav{
+      display: none;
+    }
+    #home-text{
+        align-items: center;
+    }
+    #home-container{
+       gap: 20px;
+       
+    }
+    #text-TechStack{
+        font-size: 45px;
+        width: 250px;
+    }#title-cert{
+        font-size: 40px;
+    }
+    #burger{
+  display: block;
+    }
+
+}
+
 @media (max-width: 1200px) {
 
     header{
@@ -245,10 +277,6 @@ transform: translateX(-50%);
     #home-container{
        gap: 20px;
        
-    }
-    .picture-index{
-        width: 270px;
-        height: 300px;
     }
     #text-TechStack{
         font-size: 45px;
