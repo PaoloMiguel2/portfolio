@@ -1,8 +1,7 @@
 
 body{
     background-color: rgb(75, 72, 72);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+     font-family: 'Source Sans 3', sans-serif;
 header{
     font-size: 20px;
   position: relative;
@@ -69,8 +68,6 @@ p{
     width: 600px;
  
 }
-
-
 
 #home-container{
    
