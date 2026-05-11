@@ -2,11 +2,13 @@
 body{
     background-color: rgb(75, 72, 72);
      font-family: 'Source Sans 3', sans-serif;
+     color: aliceblue;
 }
 header{
     font-size: 20px;
-  position: relative;
-  top: 30px;
+  position: sticky;
+  z-index: 10;
+  top: 0;
   margin-left: 200px;
   margin-right: 200px;
   padding-left: 20px;
@@ -88,7 +90,7 @@ p{
 #container-techstack{
     flex-wrap: wrap;
     position: relative;
-    top: 350px;
+    top: 120px;
     display: flex;
     justify-content: space-around;
 
@@ -99,7 +101,6 @@ p{
     top: 180px;
     text-shadow: 1px 15px 20px  black;
     left: 50%;
-    
     transform: translateX(-50%);
     position: absolute;
 }
@@ -148,8 +149,12 @@ p{
     align-items: center;
     position: relative;
     top: 250px;
-    gap: 120px;
+    gap: 180px;
     
+    
+}
+.excel-certif{
+    margin-bottom: 70px;
     
 }
 .java-certif::after{
@@ -214,14 +219,14 @@ transform: translateX(-50%);
     transition-timing-function: ease-in-out;
 }
 #certifications-card:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #title-cert{
     font-size: 60px;
     position: absolute;
     text-shadow: 1px 15px 20px  black;
     color: aliceblue;
-    top: 20%;
+    top: 14%;
     left: 50%;
     transform: translateX(-50%);
 }
