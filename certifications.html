@@ -20,7 +20,7 @@
         </div>
         <div id="burger"class="hidden text-[30px] mr-[30px] text-[#F0F8FF]">☰</div>
     </header>
-    <div id="menu" class=" z-10 flex border-[2px] hidden border-black h-[200px] w-100 relative  justify-center  items-end bg-[rgb(17,17,18)]">
+    <div id="menu" class=" z-10 flex border-[2px] hidden border-black h-[200px] w-100 sticky top-[70px]  justify-center  items-end bg-[rgb(17,17,18)]">
     <div class="text-xl flex flex-col gap-12 items-center">
          <a href="about.html"><p>About</p></a>
         <a href="techStack.html"><p>Tech Stack</p></a>
@@ -31,12 +31,14 @@
     <p class="text-center text-[60px] relative top-[50px] [text-shadow:_1px_2px_20px_rgba(0,0,0,0.8)]">CERTIFICATIONS</p>
     <div id="certifications-container" class="mt-[-100px]">
         
-        <div id="certifications-card" class="java-certif"><img class="image-certifications"src="images/java_cert.png"><a href="https://www.certiport.com/portal/pages/credentialverification.aspx"><h1 class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">VERIFY</h1></a></div>
-       <div id="certifications-card" class="word-certif"><img class="image-certifications" src="images/word_cert.png"><a href="https://www.certiport.com/portal/pages/credentialverification.aspx"><h1 class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">VERIFY</h1></a></div>
-       <div id="certifications-card" class="excel-certif"><img class="image-certifications" src="images/excel_cert.png"><a href="https://www.certiport.com/portal/pages/credentialverification.aspx"><h1 class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">VERIFY</h1></a></div>
+        <div id="certifications-card" class="java-certif"><img class="image-certifications"src="images/java_cert.png" onclick="openModal(this.src)" ><a href="https://www.certiport.com/portal/pages/credentialverification.aspx"><h1 class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">VERIFY</h1></a></div>
+       <div id="certifications-card" class="word-certif"><img class="image-certifications" src="images/word_cert.png" onclick="openModal(this.src)"><a href="https://www.certiport.com/portal/pages/credentialverification.aspx"><h1 class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">VERIFY</h1></a></div>
+       <div id="certifications-card" class="excel-certif"><img class="image-certifications" src="images/excel_cert.png" onclick="openModal(this.src)"><a href="https://www.certiport.com/portal/pages/credentialverification.aspx"><h1 class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">VERIFY</h1></a></div>
        
         
-       
+       <div id="imageModal" class="fixed inset-0 hidden bg-black/80 flex items-center justify-center z-50">
+        <img id="modalImg" class="max-w-[90%] max-h-[90%] rounded shadow-lg ">
+    </div>
 
     </div>
     <script src="script.js"></script>
