@@ -1,49 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paolo Miguel Pugeda | Certifications</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akt:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+   
 
 </head>
+
 <body>
     <header>
-        <a href="index.html"><p>PMP</p></a>
+        <a href="index.html">
+            <p>PMP</p>
+        </a>
         <div class="nav">
-        <a href="about.html"><p>About</p></a>
-        <a href="techStack.html"><p>Tech Stack</p></a>
-        <a href="certifications.html"><p>Certifications</p></a>    
-       
+            <a href="about.html">
+                <p>About</p>
+            </a>
+            <a href="techStack.html">
+                <p>Tech Stack</p>
+            </a>
+            <a href="certifications.html">
+                <p>Certifications</p>
+            </a>
+
         </div>
-        <div id="burger"class="hidden text-[30px] mr-[30px] text-[#F0F8FF]">☰</div>
+        <div id="burger" class="hidden text-[30px] mr-[30px] text-[#F0F8FF]">☰</div>
     </header>
     <nav class="relative">
-              <div id="menu" class="hidden fixed left-0 top-[70px] w-full z-50  h-[200px] bg-[rgb(17,17,18)] border-y border-black flex justify-center items-end">
-    <div class="text-xl flex flex-col gap-12 items-center">
-         <a href="about.html"><p>About</p></a>
-        <a href="techStack.html"><p>Tech Stack</p></a>
-        <a href="certifications.html"><p>Certifications</p></a>  
-    </div>
-</div> 
+        <div id="menu"
+            class="hidden fixed left-0 top-[70px] w-full z-50  h-[200px] bg-[rgb(17,17,18)] border-y border-black flex justify-center items-end">
+            <div class="text-xl flex flex-col gap-12 items-center">
+                <a href="about.html">
+                    <p>About</p>
+                </a>
+                <a href="techStack.html">
+                    <p>Tech Stack</p>
+                </a>
+                <a href="certifications.html">
+                    <p>Certifications</p>
+                </a>
+            </div>
+        </div>
     </nav>
-    
 
-    <p class="left-1/2 -translate-x-1/2 text-[60px] absolute top-[100px] [text-shadow:_1px_2px_20px_rgba(0,0,0,0.8)]">CERTIFICATIONS</p>
+
+    <p class="left-1/2 -translate-x-1/2 text-[60px] absolute top-[100px] [text-shadow:_1px_2px_20px_rgba(0,0,0,0.8)]">
+        CERTIFICATIONS</p>
     <div id="certifications-container" class="mt-[-100px]">
-        
-        <div id="certifications-card" class="java-certif"><img class="image-certifications"src="images/java_cert.png" onclick="openModal(this.src)" ><a href="https://www.certiport.com/portal/pages/credentialverification.aspx"><h1 class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">VERIFY</h1></a></div>
-       <div id="certifications-card" class="word-certif"><img class="image-certifications" src="images/word_cert.png" onclick="openModal(this.src)"><a href="https://www.certiport.com/portal/pages/credentialverification.aspx"><h1 class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">VERIFY</h1></a></div>
-       <div id="certifications-card" class="excel-certif"><img class="image-certifications" src="images/excel_cert.png" onclick="openModal(this.src)"><a href="https://www.certiport.com/portal/pages/credentialverification.aspx"><h1 class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">VERIFY</h1></a></div>
-       
-        
-       <div id="imageModal" class="fixed inset-0 hidden bg-black/80 flex items-center justify-center z-50">
-        <img id="modalImg" class="max-w-[90%] max-h-[90%] rounded shadow-lg ">
-    </div>
+
+        <div id="certifications-card" class="java-certif"><img class="image-certifications" src="images/java_cert.png"
+                onclick="openModal(this.src)"><a
+                href="https://www.certiport.com/portal/pages/credentialverification.aspx">
+                <h1
+                    class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">
+                    VERIFY</h1>
+            </a></div>
+        <div id="certifications-card" class="word-certif"><img class="image-certifications" src="images/word_cert.png"
+                onclick="openModal(this.src)"><a
+                href="https://www.certiport.com/portal/pages/credentialverification.aspx">
+                <h1
+                    class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">
+                    VERIFY</h1>
+            </a></div>
+        <div id="certifications-card" class="excel-certif"><img class="image-certifications" src="images/excel_cert.png"
+                onclick="openModal(this.src)"><a
+                href="https://www.certiport.com/portal/pages/credentialverification.aspx">
+                <h1
+                    class="border-[1px] text-center mt-[20px]  bg-[rgb(17,17,18)] p-2 hover:bg-[rgba(187,193,199,0.46)]">
+                    VERIFY</h1>
+            </a></div>
+
+
+        <div id="imageModal" class="fixed inset-0 hidden bg-black/80 flex items-center justify-center z-50">
+            <img id="modalImg" class="max-w-[90%] max-h-[90%] rounded shadow-lg ">
+        </div>
 
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
