@@ -284,6 +284,11 @@ transform: translateX(-50%);
    top: 15%;
   }
 
+  #certifications-card{
+    width: 350px;
+    height: 250px;
+  }
+
 }
 
 @media (max-width: 1200px) {
