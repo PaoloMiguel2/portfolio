@@ -1,9 +1,14 @@
 
+
 body{
     background-color: rgb(75, 72, 72);
-     font-family: 'Source Sans 3', sans-serif;
+    font-family: "Akt", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
      color: aliceblue;
 }
+
 header{
     font-size: 20px;
   position: sticky;
@@ -40,7 +45,7 @@ p{
     align-items: center;
     justify-content: flex-end;
     gap: 40px;
-    width: 350px;
+    width: 450px;
 }
 
 .nav p{
@@ -95,6 +100,8 @@ p{
     justify-content: space-around;
 
 }
+
+
 
 #text-TechStack{
     font-size: 60px;
@@ -262,6 +269,20 @@ transform: translateX(-50%);
     #burger{
   display: block;
     }
+  #container-techstack div{
+    width: 120px;
+    height: 120px;
+  }
+
+  #container-techstack div p{
+     font-size: 15px;
+     top: 78%;
+  }
+
+  #container-techstack div img{
+   width: 50px;
+   top: 15%;
+  }
 
 }
 
@@ -273,7 +294,7 @@ transform: translateX(-50%);
         margin-right: 0;
     }
     .nav{
-        width: 350px;
+        width: 850px;
         gap: 50px;
     }
     #home-text{
