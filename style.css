@@ -304,6 +304,11 @@ transform: translateX(-50%);
     width: 470px;
   }
 
+  #picture-index img{
+      width: 237px;
+     
+  }
+
 }
 
 @media (max-width: 1200px) {
