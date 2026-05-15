@@ -84,7 +84,7 @@ p{
     position: relative;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    top: 150px;
+    top: 50px;
     display: flex;
     gap: 50px;
     left: 50%;
@@ -243,6 +243,11 @@ transform: translateX(-50%);
     height: 100%;
 }
 
+
+
+
+
+
 @media (max-width: 642px) {
 
     header{
@@ -258,7 +263,7 @@ transform: translateX(-50%);
     }
     #home-container{
        gap: 20px;
-       
+    
     }
     #text-TechStack{
         font-size: 45px;
@@ -287,6 +292,16 @@ transform: translateX(-50%);
   #certifications-card{
     width: 350px;
     height: 250px;
+  }
+  #picture-index{
+      width: 270px;
+      height: 270px;
+  }
+  #certifications-text{
+    font-size: 35px;
+  }
+  #about-content{
+    width: 470px;
   }
 
 }
